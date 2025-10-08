@@ -46,26 +46,30 @@ Assignment-2
 
 ## **⚙️ Setup and Installation**
 
+This project uses [uv](https://github.com/astral-sh/uv), an extremely fast Python package installer and resolver, to manage its environment and dependencies.
+
 ### 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/sahilbhatt-d3vtech/Assignment-2
 cd Assignment-2
 ```
 
-### 2. Create a virtual environment (recommended):
+### 2. Create a virtual environment using `uv`:
 ```bash
-python -m venv venv
-source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+uv venv
 ```
 
-### 3. Install dependencies:
-The project uses `pyproject.toml` to manage dependencies. You can install them using `pip`.
-
+### 3. Activate the virtual environment:
 ```bash
-pip install -e .
+source .venv/bin/activate  # On Windows, use `.venv\Scripts\activate`
 ```
 
-This command installs all the packages listed in the `dependencies` section of your `pyproject.toml` file.
+### 4. Sync the dependencies with `uv`:
+This command reads the `pyproject.toml` file and installs the exact versions of the required packages into your activated environment.
+
+```bash
+uv sync
+```
 
 
 ## **🚀 How to Run**
