@@ -108,6 +108,52 @@ Here is a summary of the performance metrics for each model. The best-performing
 
 Based on the quantitative metrics from the logs and a visual inspection of the prediction graphs, we can determine the best-performing models.
 
+### **Visual Results**
+
+<center> <b>TensorFlow Predictions</b> </center>
+
+<table align="center">
+<tr>
+<td align="center">CNN Model</td>
+<td align="center">RNN Model</td>
+</tr>
+<tr>
+<td><img src="Plots/TensorFlow/TensorFlow_CNN_prediction.png" alt="TensorFlow CNN Predictions" width="400"/></td>
+<td><img src="Plots/TensorFlow/TensorFlow_RNN_prediction.png" alt="TensorFlow RNN Predictions" width="400"/></td>
+</tr>
+<tr>
+<td align="center">LSTM Model</td>
+<td align="center">GRU Model</td>
+</tr>
+<tr>
+<td><img src="Plots/TensorFlow/TensorFlow_LSTM_prediction.png" alt="TensorFlow LSTM Predictions" width="400"/></td>
+<td><img src="Plots/TensorFlow/TensorFlow_GRU_prediction.png" alt="TensorFlow GRU Predictions" width="400"/></td>
+</tr>
+</table>
+
+<br>
+
+<center> <b>PyTorch Predictions</b> </center>
+
+<table align="center">
+<tr>
+<td align="center">CNN Model</td>
+<td align="center">RNN Model</td>
+</tr>
+<tr>
+<td><img src="Plots/PyTorch/PyTorch_CNN_prediction.png" alt="PyTorch CNN Predictions" width="400"/></td>
+<td><img src="Plots/PyTorch/PyTorch_RNN_prediction.png" alt="PyTorch RNN Predictions" width="400"/></td>
+</tr>
+<tr>
+<td align="center">LSTM Model</td>
+<td align="center">GRU Model</td>
+</tr>
+<tr>
+<td><img src="Plots/PyTorch/PyTorch_LSTM_prediction.png" alt="PyTorch LSTM Predictions" width="400"/></td>
+<td><img src="Plots/PyTorch/PyTorch_GRU_prediction.png" alt="PyTorch GRU Predictions" width="400"/></td>
+</tr>
+</table>
+
 ### **Best Performing Model in TensorFlow**
 
 The **RNN model** is the clear winner for the TensorFlow implementation.
