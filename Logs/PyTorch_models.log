@@ -1,0 +1,42 @@
+2025-10-07 21:19:08 - INFO - PyTorch - Using device: cpu
+
+2025-10-07 21:19:09 - INFO - PyTorch - --- Training CNN Model ---
+2025-10-07 21:19:24 - INFO - PyTorch - Saved trained model: E:\SAM\D3V\Assignment-2\Trained-Models\PyTorch\CNN_model.pth
+2025-10-07 21:19:24 - INFO - PyTorch - --- CNN Model Evaluation ---
+2025-10-07 21:19:24 - INFO - PyTorch - Test Loss: 0.014794
+2025-10-07 21:19:24 - INFO - PyTorch - RMSE: 11.7333
+2025-10-07 21:19:24 - INFO - PyTorch - MAE: 9.9902
+2025-10-07 21:19:24 - INFO - PyTorch - Saved evaluation plot: E:\SAM\D3V\Assignment-2\Plots\PyTorch\PyTorch_CNN_prediction.png
+2025-10-07 21:19:24 - INFO - PyTorch - --------------------------------------------------
+
+
+2025-10-07 21:19:24 - INFO - PyTorch - --- Training RNN Model ---
+2025-10-07 21:19:55 - INFO - PyTorch - Saved trained model: E:\SAM\D3V\Assignment-2\Trained-Models\PyTorch\RNN_model.pth
+2025-10-07 21:19:55 - INFO - PyTorch - --- RNN Model Evaluation ---
+2025-10-07 21:19:55 - INFO - PyTorch - Test Loss: 0.003719
+2025-10-07 21:19:55 - INFO - PyTorch - RMSE: 5.8830
+2025-10-07 21:19:55 - INFO - PyTorch - MAE: 4.2048
+2025-10-07 21:19:56 - INFO - PyTorch - Saved evaluation plot: E:\SAM\D3V\Assignment-2\Plots\PyTorch\PyTorch_RNN_prediction.png
+2025-10-07 21:19:56 - INFO - PyTorch - --------------------------------------------------
+
+
+2025-10-07 21:19:56 - INFO - PyTorch - --- Training LSTM Model ---
+2025-10-07 21:20:17 - INFO - PyTorch - Saved trained model: E:\SAM\D3V\Assignment-2\Trained-Models\PyTorch\LSTM_model.pth
+2025-10-07 21:20:17 - INFO - PyTorch - --- LSTM Model Evaluation ---
+2025-10-07 21:20:17 - INFO - PyTorch - Test Loss: 0.003145
+2025-10-07 21:20:17 - INFO - PyTorch - RMSE: 5.4098
+2025-10-07 21:20:17 - INFO - PyTorch - MAE: 3.9959
+2025-10-07 21:20:17 - INFO - PyTorch - Saved evaluation plot: E:\SAM\D3V\Assignment-2\Plots\PyTorch\PyTorch_LSTM_prediction.png
+2025-10-07 21:20:17 - INFO - PyTorch - --------------------------------------------------
+
+
+2025-10-07 21:20:17 - INFO - PyTorch - --- Training GRU Model ---
+2025-10-07 21:21:30 - INFO - PyTorch - Saved trained model: E:\SAM\D3V\Assignment-2\Trained-Models\PyTorch\GRU_model.pth
+2025-10-07 21:21:30 - INFO - PyTorch - --- GRU Model Evaluation ---
+2025-10-07 21:21:30 - INFO - PyTorch - Test Loss: 0.003864
+2025-10-07 21:21:30 - INFO - PyTorch - RMSE: 5.9963
+2025-10-07 21:21:30 - INFO - PyTorch - MAE: 4.4419
+2025-10-07 21:21:30 - INFO - PyTorch - Saved evaluation plot: E:\SAM\D3V\Assignment-2\Plots\PyTorch\PyTorch_GRU_prediction.png
+2025-10-07 21:21:30 - INFO - PyTorch - --------------------------------------------------
+
+
