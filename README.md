@@ -2,7 +2,6 @@
 
 This project implements and compares various deep learning models for predicting the stock price of **Google** (`GOOGL`). The models are built using two popular frameworks: **TensorFlow** and **PyTorch**.
 
-<br>
 
 ## **📝 Project Overview**
 
@@ -18,7 +17,6 @@ The primary goal is to forecast future stock prices based on historical data. Fo
 
 The project is structured to train and evaluate each model in both TensorFlow and PyTorch, allowing for a direct comparison of their performance on the same dataset.
 
-<br>
 
 ## **📂 Project Structure**
 
@@ -45,7 +43,6 @@ Assignment-2
 └── utils.py               # Utility functions (e.g., logger, plotting)
 ```
 
-<br>
 
 ## **⚙️ Setup and Installation**
 
@@ -70,7 +67,6 @@ pip install -e .
 
 This command installs all the packages listed in the `dependencies` section of your `pyproject.toml` file.
 
-<br>
 
 ## **🚀 How to Run**
 You can run the training and evaluation pipeline for each framework by executing its `main.py` script.
@@ -87,7 +83,6 @@ python TensorFlow/main.py
 
 The scripts will automatically train all models, save the trained weights, log the evaluation metrics, and generate prediction plots in the `Plots/` directory.
 
-<br>
 
 ## **📊 Model Performance Comparison**
 
@@ -104,7 +99,6 @@ Here is a summary of the performance metrics for each model. The best-performing
 |                |**LSTM**|**5.4098**|**3.9959**|
 |                |  GRU  | 5.9963 | 4.4419 |
 
-<br>
 
 ## **📈 Analysis and Conclusion**
 
@@ -126,7 +120,6 @@ The **LSTM model** performed the best among the PyTorch implementations.
 
 - **Visual Evidence**: The corresponding plot shows a strong correlation between the predicted and actual values. While slightly less accurate than the TensorFlow RNN, it still provides a very good fit to the data compared to the other PyTorch models.
 
-<br>
 
 ## **Overall Conclusion**
 
