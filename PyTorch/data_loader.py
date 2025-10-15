@@ -85,4 +85,5 @@ def get_data_loaders(ticker, seq_length, batch_size=32):
     train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
     test_loader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False)
     
-    return train_loader, test_loader, scaler
+    # Return loaders, scaler, and sequential targets for plotting
+    return train_loader, test_loader, scaler, y_train, y_test

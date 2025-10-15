@@ -5,7 +5,7 @@ from data_loader import get_data_loaders
 from models import get_model
 from train import train_model
 from evaluate import evaluate_model
-from utils import plot_predictions, setup_logger
+from utils import plot_train_test_predictions, setup_logger
 import constants as const
 
 def main():
@@ -25,7 +25,7 @@ def main():
     os.makedirs(models_dir, exist_ok=True)
     
     # Get data loaders
-    train_loader, test_loader, scaler = get_data_loaders(
+    train_loader, test_loader, scaler, y_train_seq, y_test_seq = get_data_loaders(
         const.TICKER, const.SEQ_LENGTH, batch_size=const.BATCH_SIZE
     )
     
@@ -69,6 +69,10 @@ def main():
         # Inverse transform the scaled data
         y_pred_inv = scaler.inverse_transform(y_pred.reshape(-1, 1)).flatten()
         y_true_inv = scaler.inverse_transform(y_true.reshape(-1, 1)).flatten()
+
+        # Inverse transform sequential train/test ground truth for plotting
+        y_train_inv = scaler.inverse_transform(np.asarray(y_train_seq).reshape(-1, 1)).flatten()
+        y_test_inv = scaler.inverse_transform(np.asarray(y_test_seq).reshape(-1, 1)).flatten()
         
         # Calculate metrics
         rmse = np.sqrt(np.mean((y_pred_inv - y_true_inv) ** 2))
@@ -79,8 +83,8 @@ def main():
         logger.info(f"RMSE: {rmse:.4f}")
         logger.info(f"MAE: {mae:.4f}")
 
-        # Plot predictions
-        plot_predictions(model_name, y_true_inv, y_pred_inv, "PyTorch", logger)
+        # Plot train actual, test actual, and test predicted on same graph
+        plot_train_test_predictions(model_name, y_train_inv, y_test_inv, y_pred_inv, "PyTorch", logger)
         logger.info("-"*50 + "\n\n")
 
 if __name__ == "__main__":

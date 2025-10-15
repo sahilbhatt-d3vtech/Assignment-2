@@ -2,7 +2,7 @@ from data_loader import get_data
 from models import create_cnn_model, create_rnn_model, create_lstm_model, create_gru_model
 from train import train_model
 from evaluate import evaluate_model
-from utils import plot_predictions, setup_logger
+from utils import plot_train_test_predictions, setup_logger
 import constants as const
 import os
 
@@ -42,8 +42,11 @@ def main():
         logger.info(f"RMSE: {rmse:.4f}")
         logger.info(f"MAE: {mae:.4f}")
 
-        # Plot actual vs predicted values
-        plot_predictions(name, y_test_scaled, predictions, "TensorFlow", logger)
+        # Inverse transform y_train for plotting
+        y_train_inv = scaler.inverse_transform(y_train)
+
+        # Plot train actual, test actual, and test predicted
+        plot_train_test_predictions(name, y_train_inv, y_test_scaled, predictions, "TensorFlow", logger)
         logger.info("-"*50 + "\n\n")
 
 if __name__ == "__main__":

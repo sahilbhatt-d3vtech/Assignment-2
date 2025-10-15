@@ -1,36 +1,36 @@
-2025-10-07 21:13:11 - INFO - TensorFlow - --- Training CNN Model ---
-2025-10-07 21:13:27 - INFO - TensorFlow - Saved trained model: E:\SAM\D3V\Assignment-2\Trained-Models\TensorFlow\CNN_model.h5
-2025-10-07 21:13:27 - INFO - TensorFlow - --- CNN Model Evaluation ---
-2025-10-07 21:13:27 - INFO - TensorFlow - RMSE: 8.8362
-2025-10-07 21:13:27 - INFO - TensorFlow - MAE: 6.4117
-2025-10-07 21:13:28 - INFO - TensorFlow - Saved evaluation plot: E:\SAM\D3V\Assignment-2\Plots\TensorFlow\TensorFlow_CNN_prediction.png
-2025-10-07 21:13:28 - INFO - TensorFlow - --------------------------------------------------
+2025-10-15 18:08:10 - INFO - TensorFlow - --- Training CNN Model ---
+2025-10-15 18:08:25 - INFO - TensorFlow - Saved trained model: E:\SAM\D3V\Assignment-2\Trained-Models\TensorFlow\CNN_model.h5
+2025-10-15 18:08:25 - INFO - TensorFlow - --- CNN Model Evaluation ---
+2025-10-15 18:08:25 - INFO - TensorFlow - RMSE: 9.1759
+2025-10-15 18:08:25 - INFO - TensorFlow - MAE: 7.0436
+2025-10-15 18:08:26 - INFO - TensorFlow - Saved evaluation plot: E:\SAM\D3V\Assignment-2\Plots\TensorFlow\TensorFlow_CNN_train_test_prediction.png
+2025-10-15 18:08:26 - INFO - TensorFlow - --------------------------------------------------
 
 
-2025-10-07 21:13:28 - INFO - TensorFlow - --- Training RNN Model ---
-2025-10-07 21:13:49 - INFO - TensorFlow - Saved trained model: E:\SAM\D3V\Assignment-2\Trained-Models\TensorFlow\RNN_model.h5
-2025-10-07 21:13:49 - INFO - TensorFlow - --- RNN Model Evaluation ---
-2025-10-07 21:13:49 - INFO - TensorFlow - RMSE: 3.4568
-2025-10-07 21:13:49 - INFO - TensorFlow - MAE: 2.4086
-2025-10-07 21:13:49 - INFO - TensorFlow - Saved evaluation plot: E:\SAM\D3V\Assignment-2\Plots\TensorFlow\TensorFlow_RNN_prediction.png
-2025-10-07 21:13:49 - INFO - TensorFlow - --------------------------------------------------
+2025-10-15 18:08:26 - INFO - TensorFlow - --- Training RNN Model ---
+2025-10-15 18:08:47 - INFO - TensorFlow - Saved trained model: E:\SAM\D3V\Assignment-2\Trained-Models\TensorFlow\RNN_model.h5
+2025-10-15 18:08:47 - INFO - TensorFlow - --- RNN Model Evaluation ---
+2025-10-15 18:08:47 - INFO - TensorFlow - RMSE: 3.8496
+2025-10-15 18:08:47 - INFO - TensorFlow - MAE: 2.8140
+2025-10-15 18:08:47 - INFO - TensorFlow - Saved evaluation plot: E:\SAM\D3V\Assignment-2\Plots\TensorFlow\TensorFlow_RNN_train_test_prediction.png
+2025-10-15 18:08:47 - INFO - TensorFlow - --------------------------------------------------
 
 
-2025-10-07 21:13:49 - INFO - TensorFlow - --- Training LSTM Model ---
-2025-10-07 21:14:37 - INFO - TensorFlow - Saved trained model: E:\SAM\D3V\Assignment-2\Trained-Models\TensorFlow\LSTM_model.h5
-2025-10-07 21:14:37 - INFO - TensorFlow - --- LSTM Model Evaluation ---
-2025-10-07 21:14:37 - INFO - TensorFlow - RMSE: 8.5981
-2025-10-07 21:14:37 - INFO - TensorFlow - MAE: 6.0574
-2025-10-07 21:14:37 - INFO - TensorFlow - Saved evaluation plot: E:\SAM\D3V\Assignment-2\Plots\TensorFlow\TensorFlow_LSTM_prediction.png
-2025-10-07 21:14:37 - INFO - TensorFlow - --------------------------------------------------
+2025-10-15 18:08:47 - INFO - TensorFlow - --- Training LSTM Model ---
+2025-10-15 18:09:35 - INFO - TensorFlow - Saved trained model: E:\SAM\D3V\Assignment-2\Trained-Models\TensorFlow\LSTM_model.h5
+2025-10-15 18:09:35 - INFO - TensorFlow - --- LSTM Model Evaluation ---
+2025-10-15 18:09:35 - INFO - TensorFlow - RMSE: 10.6653
+2025-10-15 18:09:35 - INFO - TensorFlow - MAE: 7.9891
+2025-10-15 18:09:35 - INFO - TensorFlow - Saved evaluation plot: E:\SAM\D3V\Assignment-2\Plots\TensorFlow\TensorFlow_LSTM_train_test_prediction.png
+2025-10-15 18:09:35 - INFO - TensorFlow - --------------------------------------------------
 
 
-2025-10-07 21:14:37 - INFO - TensorFlow - --- Training GRU Model ---
-2025-10-07 21:15:30 - INFO - TensorFlow - Saved trained model: E:\SAM\D3V\Assignment-2\Trained-Models\TensorFlow\GRU_model.h5
-2025-10-07 21:15:30 - INFO - TensorFlow - --- GRU Model Evaluation ---
-2025-10-07 21:15:30 - INFO - TensorFlow - RMSE: 4.6312
-2025-10-07 21:15:30 - INFO - TensorFlow - MAE: 3.3448
-2025-10-07 21:15:30 - INFO - TensorFlow - Saved evaluation plot: E:\SAM\D3V\Assignment-2\Plots\TensorFlow\TensorFlow_GRU_prediction.png
-2025-10-07 21:15:30 - INFO - TensorFlow - --------------------------------------------------
+2025-10-15 18:09:35 - INFO - TensorFlow - --- Training GRU Model ---
+2025-10-15 18:10:30 - INFO - TensorFlow - Saved trained model: E:\SAM\D3V\Assignment-2\Trained-Models\TensorFlow\GRU_model.h5
+2025-10-15 18:10:31 - INFO - TensorFlow - --- GRU Model Evaluation ---
+2025-10-15 18:10:31 - INFO - TensorFlow - RMSE: 14.9216
+2025-10-15 18:10:31 - INFO - TensorFlow - MAE: 11.2659
+2025-10-15 18:10:31 - INFO - TensorFlow - Saved evaluation plot: E:\SAM\D3V\Assignment-2\Plots\TensorFlow\TensorFlow_GRU_train_test_prediction.png
+2025-10-15 18:10:31 - INFO - TensorFlow - --------------------------------------------------
 
 

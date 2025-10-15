@@ -118,16 +118,16 @@ Based on the quantitative metrics from the logs and a visual inspection of the p
 <td align="center">RNN Model</td>
 </tr>
 <tr>
-<td><img src="Plots/TensorFlow/TensorFlow_CNN_prediction.png" alt="TensorFlow CNN Predictions" width="400"/></td>
-<td><img src="Plots/TensorFlow/TensorFlow_RNN_prediction.png" alt="TensorFlow RNN Predictions" width="400"/></td>
+<td><img src="Plots/TensorFlow/TensorFlow_CNN_train_test_prediction.png" alt="TensorFlow CNN Predictions" width="400"/></td>
+<td><img src="Plots/TensorFlow/TensorFlow_RNN_train_test_prediction.png" alt="TensorFlow RNN Predictions" width="400"/></td>
 </tr>
 <tr>
 <td align="center">LSTM Model</td>
 <td align="center">GRU Model</td>
 </tr>
 <tr>
-<td><img src="Plots/TensorFlow/TensorFlow_LSTM_prediction.png" alt="TensorFlow LSTM Predictions" width="400"/></td>
-<td><img src="Plots/TensorFlow/TensorFlow_GRU_prediction.png" alt="TensorFlow GRU Predictions" width="400"/></td>
+<td><img src="Plots/TensorFlow/TensorFlow_LSTM_train_test_prediction.png" alt="TensorFlow LSTM Predictions" width="400"/></td>
+<td><img src="Plots/TensorFlow/TensorFlow_GRU_train_test_prediction.png" alt="TensorFlow GRU Predictions" width="400"/></td>
 </tr>
 </table>
 
@@ -141,16 +141,16 @@ Based on the quantitative metrics from the logs and a visual inspection of the p
 <td align="center">RNN Model</td>
 </tr>
 <tr>
-<td><img src="Plots/PyTorch/PyTorch_CNN_prediction.png" alt="PyTorch CNN Predictions" width="400"/></td>
-<td><img src="Plots/PyTorch/PyTorch_RNN_prediction.png" alt="PyTorch RNN Predictions" width="400"/></td>
+<td><img src="Plots/PyTorch/PyTorch_CNN_train_test_prediction.png" alt="PyTorch CNN Predictions" width="400"/></td>
+<td><img src="Plots/PyTorch/PyTorch_RNN_train_test_prediction.png" alt="PyTorch RNN Predictions" width="400"/></td>
 </tr>
 <tr>
 <td align="center">LSTM Model</td>
 <td align="center">GRU Model</td>
 </tr>
 <tr>
-<td><img src="Plots/PyTorch/PyTorch_LSTM_prediction.png" alt="PyTorch LSTM Predictions" width="400"/></td>
-<td><img src="Plots/PyTorch/PyTorch_GRU_prediction.png" alt="PyTorch GRU Predictions" width="400"/></td>
+<td><img src="Plots/PyTorch/PyTorch_LSTM_train_test_prediction.png" alt="PyTorch LSTM Predictions" width="400"/></td>
+<td><img src="Plots/PyTorch/PyTorch_GRU_train_test_prediction.png" alt="PyTorch GRU Predictions" width="400"/></td>
 </tr>
 </table>
 
